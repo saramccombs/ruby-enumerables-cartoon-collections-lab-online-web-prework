@@ -13,7 +13,9 @@ def summon_captain_planet(planeteer_calls_array)
 end
 
 def long_planeteer_calls(array_of_calls)
-  array_of_calls.find_all 
+  array_of_calls.find_all do |call|
+      
+  end
 end
 
 def find_the_cheese# code an argument here
