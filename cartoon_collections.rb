@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls_array)
   planeteer_calls_array.each do |element|
-    element = element.capitalize + "!"
+    element = element.capitalize! + "!"
   end
 end
 
