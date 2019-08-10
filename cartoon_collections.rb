@@ -19,7 +19,7 @@ end
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if array_of_strings & cheese_types
-    return array_of_strings & cheese_types
+    puts array_of_strings & cheese_types
   else
     return nil 
   end
